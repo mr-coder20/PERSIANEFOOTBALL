@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_white_1000"
+    tools:context=".view.InfoFragment">
+
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:layout_margin="16dp"
+        android:textSize="19dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="به نام خداوند بخشنده و مهربان\n
+
+آموزش نصب بازی و مشکلات
+
+پلاگین بازی را دانلود و نصب کرده بر روی دانلود دیتا کلیک کنید و صبر کنید تا به صورت کامل دانلود شود بعد از دانلود موفقیت آمیز دانلود بر روی دکمه (نصب دیتا) که در پایین صفحه دانلود دیتا قرار دارد کلیک کرده و صبر کنید تا دیتا به صورت کامل نصب شود.
+
+بعد از دانلود و نصب دیتا بر روی شروع بازی کلیک کرده وقتی وارد صفحه شدید بر روی ماژول بازیها که در سمت چپ و بالا قرار دارد کلیک کرده به پایین بیایید بر روی ایکون بازی کلیک کنید و از بازی کردن لذت ببرید
+
+سؤالات شما و پاسخ های ما
+
+بر روی شروع بازی کلیک میکنم ولی پوشه ها بالا نمیایند و ایکون بازی نمایان نمیشود؟
+
+اگر با مشکل بالا مواجه شدید بر روی Browse کلیک کرده وارد پوشه های اصلی موبایل میشوید وارد پوشه (PSP) میشوید و در پایین بر روی USE THIS FOLDER کلیک
+
+کرده و مجوز را بدهید وارد پلاگین شوید و از بازی کردن لذت ببرید
+
+تنظیم زاویه دوربین در بازی؟
+
+در حال بازی کردن هستید بر روی دکمه START کلیک کرده به بخش Camera Type رفته با دکمه های RL) میتوانید زاویه دوربین را تنظیم کنید
+
+
+اگر با هرگونه مشکل دیگر مواجه شدید قطعا دیتا کامل دانلود نشده و یا ناقص دانلود شده و
+
+یا نصب دیتا کامل صورت نگرفته.
+
+" />
+</androidx.core.widget.NestedScrollView>
+</FrameLayout>
