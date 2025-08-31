@@ -5,13 +5,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.calculatexiaomi"
-    compileSdk = 35
+    namespace = "persian.alimsmi.efootball"
+    compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.calculatexiaomi"
+        applicationId = "persian.alimsmi.efootball"
         minSdk = 21
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
@@ -27,13 +27,19 @@ android {
             )
         }
     }
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+    android {
+        compileOptions {
+            sourceCompatibility = JavaVersion.VERSION_11
+            targetCompatibility = JavaVersion.VERSION_11
+        }
+
+        kotlin {
+            compilerOptions {
+                jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11)
+            }
+        }
     }
-    kotlinOptions {
-        jvmTarget = "11"
-    }
+
     buildFeatures {
         compose = true
     }
@@ -60,8 +66,13 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-    implementation ("androidx.navigation:navigation-compose:2.8.7")
-    implementation ("com.google.accompanist:accompanist-systemuicontroller:0.26.1-alpha")
-
-
+    implementation (libs.androidx.navigation.compose)
+    implementation (libs.accompanist.systemuicontroller)
+    implementation(libs.okhttp)
+    implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.coil.compose)
+    implementation(libs.exoplayer.core)
+    implementation(libs.exoplayer.ui)
+    implementation(libs.androidx.datastore.preferences)
+    implementation(libs.androidx.work.runtime.ktx)
 }

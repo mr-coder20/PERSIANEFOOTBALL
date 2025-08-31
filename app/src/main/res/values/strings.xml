@@ -1,5 +1,30 @@
 <resources>
-    <string name="app_name">Calculate Xiaomi</string>
-    <string name="title_activity_main2">MainActivity2</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="app_name">Persian EFootball</string>
+
+    <string name="download_state_downloading">در حال دانلود دیتا... %1$d%%</string>
+    <string name="download_state_downloading_indeterminate">در حال دانلود دیتا...</string>
+    <string name="download_state_paused">دانلود متوقف شد. %1$d%%</string>
+    <string name="download_state_paused_indeterminate">دانلود متوقف شد.</string>
+    <string name="download_state_unknown">وضعیت: %1$s</string>
+    <string name="download_failed_message">دانلود ناموفق: %1$s</string>
+    <string name="download_completed_message">دانلود و نصب دیتا کامل شد.</string>
+    <string name="download_channel_name">کانال دانلود</string>
+    <string name="download_channel_description">نوتیفیکیشن برای دانلود دیتا</string>
+    <string name="download_notification_title">دانلود دیتا بازی</string>
+    <string name="download_notification_ticker">شروع دانلود دیتا...</string>
+
+    <!-- رشته های جدید برای دانلود -->
+    <string name="download_notification_initializing">در حال آماده سازی دانلود...</string>
+    <string name="download_resuming">در حال ادامه دانلود...</string>
+    <string name="download_preparing">در حال آماده سازی...</string>
+
+  <string name="download_state_paused_by_system">دانلود توسط سیستم متوقف شد.</string>
+    <string name="download_state_paused_by_user">دانلود توسط کاربر متوقف شد.</string>
+
+    <string name="download_state_cancelled">دانلود لغو شد.</string>
+    <string name="download_state_cancelled_by_system">دانلود توسط سیستم لغو شد.</string>
+    <string name="download_state_failed">دانلود ناموفق بود.</string>
+    <string name="download_state_completed">دانلود کامل شد.</string>
+
+
 </resources>
