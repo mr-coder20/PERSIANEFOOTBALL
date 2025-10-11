@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "persian.alimsmi.efootball"
+    namespace = "football.persian.footballe"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "persian.alimsmi.efootball"
+        applicationId = "football.persian.footballe"
         minSdk = 21
         targetSdk = 36
         versionCode = 1

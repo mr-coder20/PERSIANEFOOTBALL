@@ -1,6 +1,6 @@
 [versions]
 accompanistSystemuicontroller = "0.26.1-alpha"
-agp = "8.11.1"
+agp = "8.10.1"
 coilCompose = "2.7.0"
 datastorePreferences = "1.1.7"
 exoplayerUi = "2.19.1"
