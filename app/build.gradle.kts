@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "football.persian.footballe"
+    namespace = "psp.fazli.efootball"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "football.persian.footballe"
+        applicationId = "psp.fazli.efootball"
         minSdk = 21
         targetSdk = 36
         versionCode = 1

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="football.persian.footballe">
+    package="psp.fazli.efootball">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- برای API 33+ -->
@@ -20,6 +20,10 @@
     <uses-permission
         android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />
+    <queries>
+        <!-- اجازه بده سیستم بداند که می‌خواهیم این پکیج را باز کنیم -->
+        <package android:name="com.parian.pspplugin" />
+    </queries>
 
     <application
         android:allowBackup="true"
@@ -37,7 +41,7 @@
             android:foregroundServiceType="dataSync" />
 
         <activity
-            android:name="football.persian.footballe.MainActivity"
+            android:name="psp.fazli.efootball.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.PersianEFootbal">
             <intent-filter>
