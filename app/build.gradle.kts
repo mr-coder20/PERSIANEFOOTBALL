@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "psp.fazli.efootball"
+    namespace = "psp.msmi.efootball"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "psp.fazli.efootball"
+        applicationId = "psp.msmi.efootball"
         minSdk = 21
         targetSdk = 36
         versionCode = 1
