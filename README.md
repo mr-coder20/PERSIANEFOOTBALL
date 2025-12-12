@@ -45,11 +45,23 @@ Persian eFootball Downloader یک اپلیکیشن اندرویدی است که 
 
 ## 📲 Screenshots | تصاویر اپلیکیشن
 
-<p float="left">
-  <img src="https://user-images.githubusercontent.com/0000000/your-screenshot1.png" width="250" />
-  <img src="https://user-images.githubusercontent.com/0000000/your-screenshot2.png" width="250" />
-  <img src="https://user-images.githubusercontent.com/0000000/your-screenshot3.png" width="250" />
-</p>
+### Screenshots / تصاویر برنامه
+
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/mr-coder20/PERSIANEFOOTBALL/main/img1.jpg" width="250" /></td>
+    <td><img src="https://raw.githubusercontent.com/mr-coder20/PERSIANEFOOTBALL/main/img2.jpg" width="250" /></td>
+    <td><img src="https://raw.githubusercontent.com/mr-coder20/PERSIANEFOOTBALL/main/img3.png" width="250" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/mr-coder20/PERSIANEFOOTBALL/main/img4.jpg" width="250" /></td>
+    <td><img src="https://raw.githubusercontent.com/mr-coder20/PERSIANEFOOTBALL/main/img5.jpg" width="250" /></td>
+    <td><img src="https://raw.githubusercontent.com/mr-coder20/PERSIANEFOOTBALL/main/img6.jpg" width="250" /></td>
+  </tr>
+</table>
+
+
+
 
 ---
 
@@ -93,7 +105,7 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 ## 📬 Contact | تماس با من
 
 
-* GitHub: [yourusername](https://github.com/mr-coder20)
+* GitHub: [mr-coder20](https://github.com/mr-coder20)
 
 ---
 
