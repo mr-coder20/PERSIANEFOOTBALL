@@ -45,11 +45,20 @@ Persian eFootball Downloader یک اپلیکیشن اندرویدی است که 
 
 ## 📲 Screenshots | تصاویر اپلیکیشن
 
+### Screenshots / تصاویر برنامه
+
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/0000000/your-screenshot1.png" width="250" />
-  <img src="https://user-images.githubusercontent.com/0000000/your-screenshot2.png" width="250" />
-  <img src="https://user-images.githubusercontent.com/0000000/your-screenshot3.png" width="250" />
+  <img src="https://user-images.githubusercontent.com/0000000/img1.jpg" width="250" />
+  <img src="https://user-images.githubusercontent.com/0000000/img2.jpg" width="250" />
+  <img src="https://user-images.githubusercontent.com/0000000/img3.png" width="250" />
 </p>
+
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/0000000/img4.jpg" width="250" />
+  <img src="https://user-images.githubusercontent.com/0000000/img5.jpg" width="250" />
+  <img src="https://user-images.githubusercontent.com/0000000/img6.jpg" width="250" />
+</p>
+
 
 ---
 
