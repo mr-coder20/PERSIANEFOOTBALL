@@ -5,15 +5,15 @@ plugins {
 }
 
 android {
-    namespace = "psp.msmi.efootball"
+    namespace = "shin.a.pes"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "psp.msmi.efootball"
+        applicationId = "shin.a.pes"
         minSdk = 21
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 100
+        versionName = "8.5.85"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

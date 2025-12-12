@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="psp.msmi.efootball">
+    package="shin.a.pes">
 
 
 
@@ -35,19 +35,20 @@
         </intent>
 
         <!-- مایکت -->
-        <package android:name="ir.mservices.market" />
+        <package android:name="com.farsitel.bazaar" />
         <intent>
             <action android:name="android.intent.action.VIEW" />
-            <data android:scheme="myket" />
+            <data android:scheme="bazaar" />
+
         </intent>
 
         <!-- اپ PSP plugin -->
-        <package android:name="com.parian.pspplugin" />
+        <package android:name="ir.gtawire.pspp" />
     </queries>
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/logo"
+        android:icon="@drawable/bg2"
         android:label="@string/app_name"
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@drawable/logo"
@@ -61,7 +62,7 @@
             android:foregroundServiceType="dataSync" />
 
         <activity
-            android:name="psp.msmi.efootball.MainActivity"
+            android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.PersianEFootbal">
             <intent-filter>
