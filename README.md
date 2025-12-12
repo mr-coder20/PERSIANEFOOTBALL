@@ -92,8 +92,8 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 ## 📬 Contact | تماس با من
 
-* Telegram: [@shina_ashin](https://t.me/shina_ashin)
-* GitHub: [yourusername](https://github.com/yourusername)
+
+* GitHub: [yourusername](https://github.com/mr-coder20)
 
 ---
 
