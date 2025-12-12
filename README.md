@@ -69,7 +69,7 @@ Persian eFootball Downloader یک اپلیکیشن اندرویدی است که 
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/persian-efootball-downloader.git
+git clone https://github.com/mr-coder20/PERSIANEFOOTBALL.git
 ```
 
 Open in Android Studio and run the app on your device (Android 6+ recommended).
